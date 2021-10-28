@@ -36,11 +36,15 @@ let returnValue = convertToString(23);
 /* 1. Add one to the given value
 
 Write a function named `addOne` that accepts a number, adds one to the given value and`return` it(hint: use return keyword).
-
 Do the following with above problem.
 */
 
 // - Write a Function Declaration
+function addOne(numBer) {
+  return "number";
+}
+let numBer = prompt("Enter a Number");
+addOne();
 
 // - Write a Function Expression
 
