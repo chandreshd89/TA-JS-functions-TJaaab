@@ -12,7 +12,7 @@ minToSec(2) ➞ 120
 
 // - Write a Function Decleration for above problem
 function minToSec() {
-  // Your code
+  abhihdhkksdhgkluakdjg;
 }
 // - Execute the function with required parameter
 
@@ -85,7 +85,7 @@ function sum() {
 
 // Function Test
 sum(2, 4); // 4
-sum('Arya', 'Stark'); // "Arya Stark"
-sum('Arya', 2); // Enter valid Values
+sum("Arya", "Stark"); // "Arya Stark"
+sum("Arya", 2); // Enter valid Values
 sum(null, 2); // Enter valid Values
 sum(undefined, 2); // Enter valid Values
