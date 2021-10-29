@@ -8,10 +8,12 @@
   * [ ] Add an additional argument to the function that takes the conversion rate of human to dog years.
 */
 
-function calculateDogAge() {
-  // Your code goes here
+let h_age = +prompt("your puppy's age ");
+function calculateDogAge(h_age) {
+  alert(`${h_age * 7} dog years`);
 }
 
+calculateDogAge(h_age);
 /*
 2. 🎖Write a function named calculateMoviesToWatch that:
   * [ ] takes 2 arguments: age, number of movies you watch every week. (take 4 weeks per month)
@@ -19,9 +21,9 @@ function calculateDogAge() {
   * [ ] Return the total number of movie you will watch.
 */
 
-function calculateMoviesToWatch() {
-  // Your code goes here
-}
+let age = +prompt("Enter your Age");
+let movies = +prompt("Number of movies you watch every week");
+function calculateMoviesToWatch() {}
 
 /*
 3. 🎖Create a function called celsiusToFahrenheit:
@@ -70,9 +72,9 @@ function sumOrProductOfN() {
   // Your code goes here
 }
 
-sumOrProductOfN(4, 'sum'); // 10
-sumOrProductOfN(4, 'product'); // 24
-sumOrProductOfN(4, 'hello'); // alert "Not a valid Input"
+sumOrProductOfN(4, "sum"); // 10
+sumOrProductOfN(4, "product"); // 24
+sumOrProductOfN(4, "hello"); // alert "Not a valid Input"
 
 /*
 6. 🎖Write a program that accepts a number n using argument and return the sum of the numbers 1 to n
